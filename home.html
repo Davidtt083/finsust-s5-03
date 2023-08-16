@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Page Transitions</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c4b7d7f020.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="bgcontenedor">
+    <div class="gris"></div>
+    <div class="negro"></div>
+    <div class="contep">
+      <div class="princ btn1" onclick="mostrarp(1,1)" id="btn1">
+        <p>Década de los sesenta</p>
+      </div>
+
+      <div class="princ btn1" onclick="mostrarp(2,2)" id="btn2">
+        <p>Década de los ochenta</p>
+      </div>
+
+      <div class="princ btn2" onclick="mostrarp(3,3)" id="btn3">
+        <p>1994</p>
+      </div>
+
+      <div class="princ btn2" onclick="mostrarp(4,4)" id="btn4">
+        <p>1997</p>
+      </div>
+
+      <div class="princ btn2" onclick="mostrarp(5,5)" id="btn5">
+        <p>Nuevo milenio</p>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+  <div class="texto1 hide align-items-center" id="text1">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">Década de los sesenta</h2><br>
+      <p class="parr">Surge una preocupación que va más allá de la parte económica, comienzan a proponerse los criterios
+        ambientales y sociales, así como de gobierno corporativo. Los movimientos antiguerra cobran relevancia, hay una
+        preocupación de los jóvenes y en general de la sociedad.
+      </p>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text2">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">Década de los ochenta</h2><br>
+      <p class="parr2">Guiados por la indignación del Apartheid en África, resurge la discusión de incluir criterios
+        sociales en las organizaciones, esto da paso a la necesidad de impulsar este factor social y en general los
+        criterios ASG.
+      </p>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text3">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">1994</h2><br>
+      <p class="parr3">Empiezan a surgir propuestas más conceptuales, como por ejemplo la publicación de John Elkington
+        quien acuña el término del <i>Triple Bottom Line</i>, que en español se traduce a la triple cuenta de resultado,
+        describiendo que una organización, una empresa o un negocio, no puede solamente ocuparse de los aspectos
+        financieros o la parte económica, sino que también tiene que generar un registro de aquellos impactos en la
+        sociedad, tanto positivos como negativos.
+      </p>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text4">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">1997</h2><br>
+      <p class="parr4">A partir de la triple cuenta de resultado, se desata una serie de eventos como la fundación del
+        <i>Global Reporting Initiative</i> en Boston, que es muy importante para el reporteo y comunicación de los impactos de
+        las dimensiones ASG, convirtiéndose en uno de los estándares más difundidos en estas prácticas.
+      </p>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text5">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">Nuevo milenio</h2><br>
+      <p class="parr5">En el 2004, se plantea el marco del reporte integrado, el cual enfatiza criterios ASG más allá de
+        la dimensión financiera.
+      </p>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text6">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">2000</h2><br>
+      <p class="parr6">Se acordaron los ocho <b>Objetivos de Desarrollo del Mileni</b>o aprobados por los miembros de
+        las Naciones Unidas con
+        la finalidad de cumplirse en 2015. Estos incluían: 1) erradicar la pobreza extrema y el hambre; 2) lograr la
+        enseñanza primaria universal; 3) promover la igualdad de género y el empoderamiento de la mujer; 4) reducir la
+        mortalidad de niños menores de cinco años; 5) mejorar la salud materna; 6) combatir el VIH/sida, el paludismo y
+        otras enfermedades; 7) garantizar la sostenibilidad del medio ambiente; y, 8) fomentar una asociación mundial
+        para el desarrollo (Comisión Económica para América Latina y el Caribe, s. f.).
+      </p>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text7">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">2005</h2><br>
+      <p class="parr7">Las Naciones Unidas emitieron la Evaluación de los Ecosistemas del Milenio (<i>Ecosystem and
+          Human Well-Being</i>) con
+        el objetivo de conocer el estado de los ecosistemas y tomar acciones para mejorar su conservación y uso
+        sostenible, así como del bienestar humano (Naciones Unidas, s. f.). Este estudio representó un hito importante
+        al acuñar el término <b>servicios ecosistémico</b>s a partir del cual la naturaleza no solamente tiene un valor
+        intrínseco, sino que brinda servicios al ser humano y a sus actividades productivas, que son indispensables para
+        su bienestar y el desarrollo económico.
+      </p>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text8">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">2010</h2><br>
+      <p class="parr8">Se crea la fundación Ellen MacArthur con el objetivo de promover la economía circular como nuevo
+        paradigma de
+        producción y consumo mundial. Aunque el término economía circular se atribuye inicialmente a la obra de Pearce y
+        Turner (1990) y luego a William McDonough autor del libro “De la cuna a la cuna: rediseñando la forma en que
+        hacemos las cosas”, la Fundación Ellen MacArthur ha liderado la producción de investigaciones y documentos para
+        hacedores de política y profesionales en torno a la economía circular.
+      </p>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text9">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">2015</h2><br>
+      <p class="parr9">Las Naciones Unidas establecieron los Objetivos de <b>desarrollo sostenible</b>, también
+        denominados Objetivos
+        Globales, cuya meta general es que para 2030 las personas disfruten de paz y prosperidad. Se contemplan
+        diecisiete objetivos, entre los que destacan: fin de la pobreza, hambre cero; salud y bienestar; educación de
+        calidad; igualdad de género; agua limpia y saneamiento; energía asequible y no contaminante; etcétera. Al
+        profundizar en cada uno se encuentran las metas e indicadores que precisan su cumplimiento (Naciones Unidas, s.
+        f.).
+      </p>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text10">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">2020</h2><br>
+      <p class="parr10">Las consecuencias de la pandemia por COVID-19 causaron estragos dejando al descubierto las
+        múltiples
+        deficiencias en las dimensiones económica, social y ambiental. A la fecha su impacto sigue presente en las
+        sociedades de todo el mundo haciendo un llamado a la unión de esfuerzos para superar una fase que ha trastocado
+        al ser humano.
+      </p>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text11">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">2022</h2><br>
+      <p class="parr11">El último estudio del Grupo Intergubernamental de Expertos sobre el Cambio Climático (IPCC)
+        evidenció que el
+        impacto de las actividades humanas sobre el cambio climático es irrefutable. Una verdad que hoy parece obvia
+        pero que nos tardó décadas aceptar y que incluso gobiernos recientes, aún niegan con vehemencia, argumentando
+        ciclos naturales del clima, ajenos a los impactos del ser humano.
+      </p>
+    </div>
+  </div>
+
+  <!-------------scripts------------------>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
