@@ -128,10 +128,10 @@ a {
 
 .contep {
   position: absolute;
-  margin-top: 178px;
+  margin-top: 151px;
   width: 96%;
   height: 80px;
-  margin-left: 4%;
+  margin-left: 3%;
   display: flex;
 }
 
@@ -166,8 +166,8 @@ a {
 
 .btn1 {
   background-color: #0f102b;
-  line-height: 1.2;
-  font-size: 19px;
+  line-height: 1.4;
+  font-size: 32px;
   color: #ffffff;
   padding-top: 16px;
 }
@@ -592,15 +592,18 @@ a {
 
 .texto1 {
   position: absolute;
-  margin-top: -238px;
-  margin-left: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -258px;
+  margin-left: 54px;
   width: 90%;
   height: 45%;
   background-color: rgba(255, 255, 255, 0.2);
   color: #ffffff;
   border-radius: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 2%;
+  padding-top: 0%;
   padding-left: 16px;
   padding-right: 16px;
   transition: all 1s;
@@ -671,7 +674,8 @@ li {
 }
 
 .parr {
-  margin-top: 10px;
+  margin-top: 7px;
+  width: 98%;
 }
 
 .parr2 {
@@ -712,4 +716,28 @@ li {
 
 .parr11 {
   margin-top: 23px;
+}
+
+
+.contelot {
+  width: 48%;
+  height: 218px;
+  background-color: rgba(255, 255, 255, 1);
+  color: #000000;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: all 1s;
+  align-content: center;
+  /* text-align: justify; */
+  line-height: 21px;
+  box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
+}
+
+.conte-parr{
+  width: 50%;
 }
